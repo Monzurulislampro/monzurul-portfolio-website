@@ -2,10 +2,10 @@ const Hero = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-[75%] mt-10">
     <div className="mx-auto text-justify">
-      <p>Hello sir,</p>
-        <h1 className="font-bold text-xxl"> It's Monzurul Islam</h1>
-        <h1 className="font-bold text-2xl">MERN Stack Developer</h1>
-        <p className="">Highly Interested to join with your team</p>
+      <p className="font-bold text-xl">Hello sir,</p>
+        <h1 className="font-bold text-2xl"> It's Monzurul Islam</h1>
+        <h1 className="font-bold text-3xl">MERN Stack Developer</h1>
+        <p className="text-xl">Highly Interested to join with your team</p>
         <button className="btn btn-outline btn-primary mt-3">Resume</button>
         <div className="flex p-2 gap-2 w-10">
           <img src="/assets/icons8-github.svg" alt="github-icons" />
