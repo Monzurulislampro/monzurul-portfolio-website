@@ -1,174 +1,119 @@
-import { useKeenSlider } from "keen-slider/react";
 const Projects = () => {
-  const [sliderRef] = useKeenSlider({
-    slides: {
-      perView: 2,
-      spacing: 15,
-    },
-  });
   return (
-    <div className=" max-w-[75%] mt-10 mx-auto text-center">
-      <div className="mx-auto">
-        <h1 className="text-2xl font-bold p-4">MY PROJECTS</h1>
+    <div className=" max-w-[75%] mt-10 mx-auto">
+      <div className="mx-auto text-center">
+        <h1>PROJECTS</h1>
       </div>
-      <div ref={sliderRef} className="keen-slider flex">
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img
-              className="keen-slider__slide"
-              src="/assets/slider/download (1).jpg"
-              alt=""
-            />
-          </div>
-          <div className="keen-slider__slide absolute -mt-16 font-bold text-slate-100 ">
-            <p>Project Link</p>
-            <p>Github Repo</p>
-          </div>
+     <div className=" mt-10 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div className="card w-auto bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body mb-5">
+          <h2 className="card-title">Live Link</h2>
+          <h2 className="card-title">Github Repo</h2>
         </div>
       </div>
+     <div className="card w-auto bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body mb-5">
+          <h2 className="card-title">Live Link</h2>
+          <h2 className="card-title">Github Repo</h2>
+        </div>
+      </div>
+     <div className="card w-auto bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body mb-5">
+          <h2 className="card-title">Live Link</h2>
+          <h2 className="card-title">Github Repo</h2>
+        </div>
+      </div>
+     <div className="card w-auto bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body mb-5">
+          <h2 className="card-title">Live Link</h2>
+          <h2 className="card-title">Github Repo</h2>
+        </div>
+      </div>
+     <div className="card w-auto bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body mb-5">
+          <h2 className="card-title">Live Link</h2>
+          <h2 className="card-title">Github Repo</h2>
+        </div>
+      </div>
+     <div className="card w-auto bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body mb-5">
+          <h2 className="card-title">Live Link</h2>
+          <h2 className="card-title">Github Repo</h2>
+        </div>
+      </div>
+     <div className="card w-auto bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body mb-5">
+          <h2 className="card-title">Live Link</h2>
+          <h2 className="card-title">Github Repo</h2>
+        </div>
+      </div>
+     <div className="card w-auto bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body mb-5">
+          <h2 className="card-title">Live Link</h2>
+          <h2 className="card-title">Github Repo</h2>
+        </div>
+      </div>
+     <div className="card w-auto bg-base-100 shadow-xl">
+        <figure>
+          <img
+            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body mb-5">
+          <h2 className="card-title">Live Link</h2>
+          <h2 className="card-title">Github Repo</h2>
+        </div>
+      </div>
+     </div>
     </div>
   );
 };
