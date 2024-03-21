@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className=" max-w-[75%] mt-10 mx-auto text-center">
       <div className="mx-auto">
-        <h1 className="text-2xl font-bold p-4">My Projects</h1>
+        <h1 className="text-2xl font-bold p-4">MY PROJECTS</h1>
       </div>
       <div ref={sliderRef} className="keen-slider flex">
         <div>
