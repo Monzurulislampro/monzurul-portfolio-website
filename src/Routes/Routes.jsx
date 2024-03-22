@@ -9,9 +9,14 @@ import Contact from "../Components/Contact/Contact";
       path: "/",
       element: <Main></Main>,
       children: [{
+        path: "/",
+        element: <Home></Home>
+      },
+      {
         path: "/Home",
         element: <Home></Home>
-      }],
+      },
+    ],
     },
     {
       path: "/",
