@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-[75%] mt-10">
+    <div id="#hero" className="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-[75%] mt-10">
     <div className="mx-auto text-justify">
       <p className="font-bold text-xl">Hello sir,</p>
         <h1 className="font-bold text-2xl"> It's Monzurul Islam</h1>
