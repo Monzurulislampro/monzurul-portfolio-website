@@ -26,7 +26,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl"
           >
             <li>
-              <Link to="/Home">Home</Link> {/* Fixed the typo here */}
+              <Link to="/">Home</Link> {/* Fixed the typo here */}
             </li>
             <li>
               <Link to="/Projects">Projects</Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-xl">
           <li>
-            <Link to="/Home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/Projects">Projects</Link>

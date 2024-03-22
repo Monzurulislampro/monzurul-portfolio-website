@@ -11,12 +11,7 @@ import Contact from "../Components/Contact/Contact";
       children: [{
         path: "/",
         element: <Home></Home>
-      },
-      {
-        path: "/Home",
-        element: <Home></Home>
-      },
-    ],
+      }],
     },
     {
       path: "/",
