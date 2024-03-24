@@ -4,12 +4,12 @@ const Hero = () => {
       id="#hero"
       className="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-[75%] mt-10"
     >
-      <div className="mx-auto text-justify">
+      <div className="mx-auto">
         <p className="font-bold text-xl">Hello sir,</p>
         <h1 className="font-bold text-2xl"> It’s Monzurul Islam</h1>
         <br />
-        <h1 className="font-bold text-3xl -mt-4">MERN Stack Developer</h1>
-        <p className="text-xl mt-4">
+        <h2 className="font-bold text-2xl -mt-4">MERN Stack Developer</h2>
+        <p className="text-xl mt-4 text-justify">
           I am passionate about building dynamic and user-friendly web
           applications. I am excited to contribute to innovative projects and
           continue honing my skills in the MERN stack environment.
