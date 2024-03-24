@@ -6,9 +6,10 @@ const Hero = () => {
     >
       <div className="mx-auto text-justify">
         <p className="font-bold text-xl">Hello sir,</p>
-        <h1 className="font-bold text-2xl"> It's Monzurul Islam</h1>
-        <h1 className="font-bold text-3xl">MERN Stack Developer</h1>
-        <p className="text-xl">
+        <h1 className="font-bold text-2xl"> It’s Monzurul Islam</h1>
+        <br />
+        <h1 className="font-bold text-3xl -mt-4">MERN Stack Developer</h1>
+        <p className="text-xl mt-4">
           I am passionate about building dynamic and user-friendly web
           applications. I am excited to contribute to innovative projects and
           continue honing my skills in the MERN stack environment.
