@@ -16,16 +16,16 @@ const Hero = () => {
         <button className="btn btn-outline btn-primary mt-3">Resume</button>
         <div className="flex mt-4 w-32 gap-2">
           <a href="https://github.com/Monzurulislampro">
-            <img src="/public/assets/icons8-github-48.png" alt="github-icons" />
+            <img src="/src/assets/icons8-github-48.png" alt="github-icons" />
           </a>
           <a href="https://www.linkedin.com/in/monzurul-islam-pro/">
             <img
-              src="/public/assets/icons8-linkedin (1).svg"
+              src="/src/assets/icons8-linkedin (1).svg"
               alt="linkedln-icons"
             />
           </a>
           <a href="https://wa.me/qr/EPABDYLFR5VCM1">
-            <img src="/public/assets/icons8-whatsapp.svg" alt="github-icons" />
+            <img src="/src/assets/icons8-whatsapp.svg" alt="github-icons" />
           </a>
         </div>
       </div>

@@ -1,6 +1,6 @@
 const ExperienceWith = () => {
   return (
-    <div className="grid grid-cols-1 mx-auto sm:gap-4 max-w-[75%] mt-10">
+    <div className="grid grid-cols-1 mx-auto md:gap-4 max-w-[75%] mt-10">
       <div className="text-2xl mx-auto">EXPERIENCE WITH</div>
       <div className="flex mx-auto md:gap-4">
         <img src="/assets/icons8-html.svg" alt="" />
