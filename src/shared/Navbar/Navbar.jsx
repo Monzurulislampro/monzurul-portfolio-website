@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 relative sticky top-0 z-50">
+    <div className="navbar bg-base-100 top-0 z-50 mb-5 max-w-[75%">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -62,11 +62,7 @@ const Navbar = () => {
         <label className="swap swap-rotate">
           <label className="swap swap-rotate">
             {/* this hidden checkbox controls the state */}
-            <input
-              type="checkbox"
-              className="theme-controller"
-              value="dracula"
-            />
+            <input type="checkbox" className="theme-controller" value="dark" />
 
             {/* sun icon */}
             <svg
